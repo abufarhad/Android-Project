@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main3"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.hp.hifriend.Main3Activity">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+
+
+
+                <Button
+                    android:text="BUET"
+                    android:layout_width="match_parent"
+                    android:onClick="f9"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/button12"
+
+                    android:background="@color/colorPrimaryDark" />
+
+                <Button
+                    android:text="RUET"
+                    android:layout_width="match_parent"
+                    android:onClick="f10"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/button11"
+                    android:background="@android:color/holo_purple" />
+
+                <Button
+                    android:text="KUET"
+                    android:layout_width="match_parent"
+                    android:onClick="f11"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/button10"
+                    android:background="@color/colorPrimaryDark" />
+
+                <Button
+                    android:text="CUET"
+                    android:layout_width="match_parent"
+                    android:onClick="f12"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/button9"
+                    android:background="@android:color/holo_purple" />
+
+                <TextView
+                    android:text=" "
+                    android:layout_width="match_parent"
+                    android:textSize="20sp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/textView" />
+
+                <Button
+                    android:text=" ভর্তির আবেদনের যোগ্যতা"
+                    android:layout_width="match_parent"
+                    android:onClick="f13"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/button46"
+                    android:background="@android:drawable/sym_def_app_icon" />
+
+
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+</RelativeLayout>

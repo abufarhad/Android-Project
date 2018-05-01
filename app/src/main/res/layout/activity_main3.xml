@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main3"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.hp.hifriend.Main3Activity">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+
+                <TextView
+                    android:text="যেকোন তথ্যের ব্যাপারে অথবা যেকোন প্রশ্ন(পদার্থ, রসায়ন, গণিত )  এ কোন প্রব্লেম এ সমস্যায় পড়লে  প্রথমে নিচে ক্লিক করে নিজের প্রশ্ন করুন……
+অথবা সরাসরি নিচের  আমদেরকে প্রশ্ন করতে নামে ক্লিক করে আপনার  প্রশ্ন লিখে ফেসবুকে ইনবক্স করুন।
+"
+                    android:layout_width="match_parent"
+                    android:textSize="20dp"
+                    android:textColor="@color/colorPrimary"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/textView12" />
+                <TextView
+                    android:text=" "
+                    android:layout_width="match_parent"
+                    android:textSize="20dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/textView15" />
+
+
+                <Button
+                    android:text="Ask your question"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:onClick="f5"
+                    android:id="@+id/button44"
+                    android:background="@color/colorPrimaryDark" />
+                <TextView
+                    android:text=" "
+                    android:layout_width="match_parent"
+                    android:textSize="20dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/textView15" />
+
+                <Button
+                    android:text="Engineering university Admission System"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:onClick="f14"
+                    android:id="@+id/button45"
+                    android:background="@android:color/holo_green_light" />
+
+                <TextView
+                    android:text=" "
+                    android:layout_width="match_parent"
+                    android:textSize="20dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/textView15" />
+
+                <Button
+                    android:text="Sagar(BUET,EEE)"
+                    android:layout_width="match_parent"
+                    android:onClick="Next12"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/button12"
+                    android:background="@color/colorPrimaryDark" />
+
+                <Button
+                    android:text="Farhad(RUET,CSE)"
+                    android:layout_width="match_parent"
+                    android:onClick="Next11"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/button11"
+                    android:background="@android:color/holo_purple" />
+
+                <Button
+                    android:text="Saymum(KUET,EEE)"
+                    android:layout_width="match_parent"
+                    android:onClick="Next13"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/button10"
+                    android:background="@color/colorPrimaryDark" />
+
+                <Button
+                    android:text="Suvo(DU,Nuclear)"
+                    android:layout_width="match_parent"
+                    android:onClick="Next14"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/button9"
+                    android:background="@android:color/holo_purple" />
+
+
+
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+</RelativeLayout>

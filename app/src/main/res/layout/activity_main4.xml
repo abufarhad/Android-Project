@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main4"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.hp.hifriend.Main4Activity">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:text="যেকোন তথ্যের ব্যপারে অথবা যেকোন প্রশ্ন(পদার্থ, রসায়ন,বায়োলজি )  এ কোন প্রব্লেম এ সমস্যায় পড়লে  প্রথমে নিচে ক্লিক করে নিজের প্রশ্ন কর……
+অথবা সরাসরি নিচের  আমদেরকে প্রশ্ন করতে নামে ক্লিক করে আপনার  প্রশ্ন লিখে ফেসবুকে ইনবক্স করুন ।
+"
+                    android:layout_width="match_parent"
+                    android:textSize="20dp"
+                    android:textColor="@color/colorPrimary"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/textView12" />
+                <TextView
+                    android:text=" "
+                    android:layout_width="match_parent"
+                    android:textSize="20dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/textView15" />
+
+
+
+                <Button
+                    android:text="Ask your question"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:onClick="f15"
+                    android:id="@+id/button44"
+                    android:background="@color/colorPrimaryDark" />
+
+                <TextView
+                    android:text=" "
+                    android:layout_width="match_parent"
+                    android:textSize="20dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/textView15" />
+
+
+                <Button
+                    android:text="Mehedy(Jamalpur Medical'15)"
+                    android:layout_width="match_parent"
+                    android:onClick="Next15"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/button8"
+                    android:background="@android:color/holo_purple" />
+
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+</RelativeLayout>

@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.hp.hifriend.MainActivity">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"><![CDATA[>
+        ]]></ScrollView>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="1">>
+
+
+        <TextView
+            android:layout_width="match_parent"
+
+            android:textSize="21sp"
+            android:layout_height="wrap_content"
+            android:text="Welcome to Our SSC'13(PIRGANJ) Batch App !" />
+
+        <TextView
+            android:text=" "
+            android:textSize="12sp"
+            android:layout_width="match_parent"
+
+            android:layout_height="wrap_content"
+            android:id="@+id/textView25" />
+
+        <TextView
+            android:text="Here you find our Spcial friends ,Who will help you If you need any types of help."
+            android:layout_width="match_parent"
+            android:textSize="16sp"
+            android:layout_height="wrap_content"
+
+            android:id="@+id/textView26" />
+
+        <TextView
+            android:text=" "
+            android:textSize="12sp"
+            android:layout_width="match_parent"
+
+            android:layout_height="wrap_content"
+            android:id="@+id/textView25" />
+
+        <TextView
+            android:text="If you Fall any Trouble  Connect us And Solve Your Problem .Just Click Step by Step Button"
+            android:layout_width="match_parent"
+            android:textSize="16sp"
+
+            android:textColorHighlight="@color/colorPrimaryDark"
+            android:layout_height="wrap_content"
+
+            android:id="@+id/textView26" />
+    </LinearLayout>
+
+    <Button
+        android:text="App Creator"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/button34"
+        android:layout_alignParentRight="true"
+        android:onClick="Next45"
+        android:layout_alignParentEnd="true"
+        android:id="@+id/button35"
+        style="@android:style/Widget.Button"
+        android:background="@android:drawable/sym_def_app_icon" />
+
+        <Button
+            android:text="Click me"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/button"
+            android:onClick="Next"
+            style="@android:style/Widget.Button"
+            android:background="@android:drawable/button_onoff_indicator_on"
+            android:layout_above="@+id/button34"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="141dp"
+            android:layout_weight="0.05" />
+
+        <Button
+            android:text="Respect"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginLeft="10dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginBottom="48dp"
+            android:onClick="Next44"
+            android:id="@+id/button34"
+            android:background="@mipmap/ic_launcher"
+            style="@android:style/Widget.Button" />
+
+</RelativeLayout>
