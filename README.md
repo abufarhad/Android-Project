@@ -1,2 +1,2 @@
 # Android-Project
-An Android App that helps college level students.Here Students can share their problem if they fall any type of problem Also they can frequently ask here any educational type of question. This App can solve their problem. It also gets the information of our University Admission System.
+An Android App that helps college or school level students.Here Students can share their problems .An mentor solve his/her problems. Mainly it first build for my college juniors but it can use any college or school level students for their educational purpose.Main feature is students can directly communicate with their seniors who are now studying some reputed university . It also provide informations of our BD University Admission System.
